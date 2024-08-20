@@ -7,7 +7,6 @@ export function userRecoverPassword(event) {
     showLoad();
 
     const email = document.querySelector('#email').value
-    console.log(email);
 
     if (!email) {
         hideLoad();
