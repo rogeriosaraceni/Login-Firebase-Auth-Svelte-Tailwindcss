@@ -1,9 +1,3 @@
-<style>
-    .markdown-body table,
-    .markdown-body table th, 
-    .markdown-body table td { border: 0!important;}
-</style>
-
 # Login Firebase Auth ( Svelte + Tailwindcss )
 
 <p align="center">
@@ -11,19 +5,19 @@
 </p>
 <br>
 
-<table width="100%" align="center" border="0">
+<table width="100%" align="center">
     <tr>
-        <td align="center" valign="bottom" border="0">
+        <td align="center" valign="bottom">
             <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Firebase</span>
         </td>
-        <td align="center" valign="bottom" border="0">
+        <td align="center" valign="bottom">
             <img src="./github/logo-svelte.svg" alt="Svelte logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Svelte</span>
         </td>
-        <td align="center" valign="bottom" border="0">
+        <td align="center" valign="bottom">
             <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Tailwindcss</span>
