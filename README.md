@@ -5,7 +5,7 @@
 </p>
 <br>
 
-<table width="100%" align="center">
+<table width="100%" align="center" boder=0>
     <tr>
         <td align="center" style="vertical-align: bottom;">
             <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
