@@ -1,4 +1,4 @@
-import { auth } from '$firebase/firebaseConfig'
+import { auth } from '$firebase/initializeFirebase'
 import { onAuthStateChanged } from 'firebase/auth'
 
 export function authGuard() {
@@ -12,7 +12,6 @@ export function authGuard() {
             }
         });
 
-        // Opcional: limpar o listener quando o componente for desmontado
         return () => unsubscribe()
     })
 }

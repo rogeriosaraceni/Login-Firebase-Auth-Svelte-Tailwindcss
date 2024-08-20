@@ -1,7 +1,7 @@
 <script>
     import AuthGuard from "$lib/AuthGuard.svelte";
 
-    import { logout } from '$firebase/logout.js'
+    import { userSignout } from '$firebase/userSignout.js'
     import ButtonSolid from "$lib/ButtonSolid.svelte"
 </script>
 
@@ -22,7 +22,7 @@
             text-center 
             p-2 
             transition-all"
-            on:click={logout}
+            on:click={userSignout}
         >
             Logout
         </button>

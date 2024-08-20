@@ -1,7 +1,7 @@
 import { getAuth, signOut } from 'firebase/auth'
 
 // Função para deslogar o usuário
-export function logout() {
+export function userSignout() {
     const auth = getAuth() // Obtenha a instância de autenticação    
 
     signOut(auth)
@@ -10,6 +10,7 @@ export function logout() {
         window.location.href = '/login/'
     })
     .catch((error) => {
-        alert(`Erro ao deslogar: ${error.message}`)
+        alert(error.message)
+        throw error
     });
 }

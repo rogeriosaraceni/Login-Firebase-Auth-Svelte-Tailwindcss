@@ -9,7 +9,7 @@
             await authGuard() // Espera a Promise ser resolvida
             isLoading = false // Atualiza o estado quando a autenticação estiver verificada
         } catch (error) {
-            console.error('Erro de autenticação', error)
+            console.error('Authentication error!', error)
         }
     });
 </script>

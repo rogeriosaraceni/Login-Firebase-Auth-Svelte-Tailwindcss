@@ -3,14 +3,14 @@
 	import Button from "$lib/Button.svelte";
 	import ButtonSolid from "$lib/ButtonSolid.svelte";
 
-    import { handleSubmit } from './formHandlers.js';
+    import { userLogin } from '$firebase/userLogin.js';
     import { registerRedirect } from "$functions/registerRedirect.js";
-    import { recoverPassword } from "$firebase/recoverPassword.js";
+    import { userRecoverPassword } from "$firebase/userRecoverPassword.js";
 </script>
 
 <Load />
 
-<form id="formSubmit" method="POST" on:submit={handleSubmit}>
+<form id="formSubmit" on:submit={userLogin}>
     <h1 class="text-lg mb-3">Login</h1>
 
     <div class="mb-3">
@@ -47,7 +47,7 @@
     <button
         type="button"
         class="w-full text-center text-sm my-2 hover:underline"
-        on:click={recoverPassword}
+        on:click={userRecoverPassword}
     >
         Recover Password
     </button>
