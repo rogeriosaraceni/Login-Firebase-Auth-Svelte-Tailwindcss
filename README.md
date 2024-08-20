@@ -8,17 +8,17 @@
 <table width="100%" align="center">
     <tr>
         <td align="center" valign="bottom">
-            <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
+            <img src="./github/logo-firebase.svg" alt="Firebase logo" width="80"/>
             <br>
             <span style="font-size: 2rem;">Firebase</span>
         </td>
         <td align="center" valign="bottom">
-            <img src="./github/logo-svelte.svg" alt="Svelte logo" width="100"/>
+            <img src="./github/logo-svelte.svg" alt="Svelte logo" width="80"/>
             <br>
             <span style="font-size: 2rem;">Svelte</span>
         </td>
         <td align="center" valign="bottom">
-            <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="100"/>
+            <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="80"/>
             <br>
             <span style="font-size: 2rem;">Tailwindcss</span>
         </td>
