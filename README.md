@@ -1,3 +1,9 @@
+<style>
+    .markdown-body table.logos,
+    .markdown-body table.logos th, 
+    .markdown-body table.logos td { border: 0!important;}
+</style>
+
 # Login Firebase Auth ( Svelte + Tailwindcss )
 
 <p align="center">
@@ -5,7 +11,7 @@
 </p>
 <br>
 
-<table width="100%" align="center" style="border:0">
+<table width="100%" align="center" class="logos">
     <tr>
         <td align="center" valign="bottom" style="border:0">
             <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
