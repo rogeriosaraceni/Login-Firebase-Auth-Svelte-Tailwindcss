@@ -7,45 +7,23 @@
 
 <table width="100%" align="center" boder=0>
     <tr>
-        <td align="center" style="vertical-align: bottom;">
+        <td align="center" boder=0 style="vertical-align: bottom;">
             <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Firebase</span>
         </td>
-        <td align="center" style="vertical-align: bottom;">
+        <td align="center" boder=0 style="vertical-align: bottom;">
             <img src="./github/logo-svelte.svg" alt="Svelte logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Svelte</span>
         </td>
-        <td align="center" style="vertical-align: bottom;">
+        <td align="center" boder=0 style="vertical-align: bottom;">
             <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Tailwindcss</span>
         </td>
     </tr>
 </table>
-
-
-<table style="width: 100%; text-align:center; border: 0;">
-    <tr>
-        <td style="text-align:center; vertical-align: bottom;">
-            <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
-            <br>
-            <span style="font-size: 2rem;">Firebase</span>
-        </td>
-        <td style="text-align:center; vertical-align: bottom;">
-            <img src="./github/logo-svelte.svg" alt="Svelte logo" width="100"/>
-            <br>
-            <span style="font-size: 2rem;">Svelte</span>
-        </td>
-        <td style="text-align:center; vertical-align: bottom;">
-            <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="100"/>
-            <br>
-            <span style="font-size: 2rem;">Tailwindcss</span>
-        </td>
-    </tr>
-</table>
-
 
 ## 🚀 Project Technologies
 - **[Firebase Authentication](https://firebase.google.com/docs/auth)**: Fornece back-end services, SDKs fáceis de usar e bibliotecas UI para autenticar usuários na aplicação.
