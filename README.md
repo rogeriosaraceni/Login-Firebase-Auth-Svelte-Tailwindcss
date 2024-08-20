@@ -5,19 +5,19 @@
 </p>
 <br>
 
-<table width="100%" align="center" boder=0>
+<table width="100%" align="center" border="0">
     <tr>
-        <td align="center" boder=0 style="vertical-align: bottom;">
+        <td align="center" border="0" valign="bottom">
             <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Firebase</span>
         </td>
-        <td align="center" boder=0 style="vertical-align: bottom;">
+        <td align="center" border="0" valign="bottom">
             <img src="./github/logo-svelte.svg" alt="Svelte logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Svelte</span>
         </td>
-        <td align="center" boder=0 style="vertical-align: bottom;">
+        <td align="center" border="0" valign="bottom">
             <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="100"/>
             <br>
             <span style="font-size: 2rem;">Tailwindcss</span>
