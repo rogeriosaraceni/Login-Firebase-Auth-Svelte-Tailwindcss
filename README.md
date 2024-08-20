@@ -5,20 +5,25 @@
 </p>
 <br>
 
-<div style="display: flex; align-items: end; justify-content: center; gap: 2rem;">
-    <div style="display: flex; align-items: end;">
-        <img src="./github/logo-firebase.svg" alt="" width="100"/>
-        <span style="font-size: 2rem;">Firebase</span>
-    </div>
-    <div style="display: flex; align-items: end;">
-        <img src="./github/logo-svelte.svg" alt="" width="100"/>
-        <span style="font-size: 2rem;">Svelte</span>
-    </div>
-    <div style="display: flex; align-items: end;">
-        <img src="./github/logo-tailwindcss.svg" alt="" width="100"/>
-        <span style="font-size: 2rem;">Tailwindcss</span>
-    </div>
-</div>
+<table width="100%" align="center">
+    <tr>
+        <td align="center" style="vertical-align: bottom;">
+            <img src="./github/logo-firebase.svg" alt="Firebase logo" width="100"/>
+            <br>
+            <span style="font-size: 2rem;">Firebase</span>
+        </td>
+        <td align="center" style="vertical-align: bottom;">
+            <img src="./github/logo-svelte.svg" alt="Svelte logo" width="100"/>
+            <br>
+            <span style="font-size: 2rem;">Svelte</span>
+        </td>
+        <td align="center" style="vertical-align: bottom;">
+            <img src="./github/logo-tailwindcss.svg" alt="Tailwindcss logo" width="100"/>
+            <br>
+            <span style="font-size: 2rem;">Tailwindcss</span>
+        </td>
+    </tr>
+</table>
 
 ## 🚀 Project Technologies
 - **[Firebase Authentication](https://firebase.google.com/docs/auth)**: Fornece back-end services, SDKs fáceis de usar e bibliotecas UI para autenticar usuários na aplicação.
